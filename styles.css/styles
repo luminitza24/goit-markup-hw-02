@@ -1,0 +1,11 @@
+:root {--paragraph-color:#757575;
+    --link-color:#2196F3;
+    --bg-color:#2F303A;}
+body {color:var(--bg-color)
+    font-family: Open-sans;
+    font-style: Roboto;
+    font-weight: 400;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.66;
+}

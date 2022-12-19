@@ -5,9 +5,7 @@
   --writing-color: #212121;
 }
 body {
-  font-family: Open-sans;
-  font-style: Roboto;
-  font-weight: 400;
+  font-family: Roboto;
   font-weight: 400;
   font-size: 36px;
   line-height: 1.66;
@@ -15,7 +13,7 @@ body {
 .unstyled-list {
   list-style-type: none;
 }
-.page-header {
+.link .page-header {
   background-color: #2f303a;
 }
 
@@ -24,4 +22,21 @@ body {
 }
 .link:hover .link:focus .link:active {
   color: var(--link-color);
+}
+.title-item {
+  color: var(--writing-color);
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.data-item {
+  color: var(--paragraph-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.heading {
+  color: #ffffff;
+  font-size: 44px;
+  line-height: 1.36;
 }
